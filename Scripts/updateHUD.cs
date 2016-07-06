@@ -2,6 +2,7 @@
    Jet Ppropulsion Laboratory
    Virtual Reality for Mars Rovers | Summer 2016
    Davy Ragland | dragland@stanford.edu
+   Victor Ardulov | victorardulov@gmail.com
    Oleg Pariser | Oleg.Pariser@jpl.nasa.gov
 */
 
