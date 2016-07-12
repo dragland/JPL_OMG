@@ -127,6 +127,7 @@ public class ToggleLayers : MonoBehaviour {
 	*/
 	void manipulateScale(float Menu_Y){
 		meshScale += (Menu_Y * 0.1f);
+		if (meshScale <= 0.1f) meshScale = 0.2f;
 		Vector3 temp = transform.localScale;
 		temp.y = meshScale;
 		transform.localScale = temp;
