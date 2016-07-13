@@ -58,7 +58,7 @@ public class updateHUD : MonoBehaviour {
 		int elevation = (int)(Camera.main.transform.rotation.eulerAngles.x) ;
 		if (elevation > 0 && elevation <= 180) elevation = -1 * elevation;
 		else if (elevation <= 360 && elevation > 180) elevation = 360 - elevation;
-		text_1.text = "OMG\nAZ = " + asimuth + "°\nEL = " + elevation + "°";
+		text_1.text = "WGF\nAZ = " + asimuth + "°\nEL = " + elevation + "°";
 	}
 
 	/*
